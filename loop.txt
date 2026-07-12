@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int i,a[7];
+    for(i=0;i<7;i++)
+    {
+        a[i]=i+8;
+        printf("%d",a[i]);
+    }
+}
